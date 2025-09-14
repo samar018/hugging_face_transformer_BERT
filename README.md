@@ -17,6 +17,29 @@ Hugging Face is an AI company and open-source platform focused on natural langua
 - Python 3.7 or higher
 - pip (Python package installer)
 
+### Installing Python
+If you don't have Python installed, download and install it from the official website: https://www.python.org/downloads/
+
+Make sure to check "Add Python to PATH" during installation on Windows.
+
+### Setting Up a Virtual Environment
+It's recommended to use a virtual environment to manage dependencies and avoid conflicts with other projects.
+
+1. Create a virtual environment:
+   ```bash
+   python -m venv venv
+   ```
+
+2. Activate the virtual environment:
+   - On Windows:
+     ```bash
+     venv\Scripts\activate
+     ```
+   - On macOS/Linux:
+     ```bash
+     source venv/bin/activate
+     ```
+
 ### Install Dependencies
 1. Clone the repository:
    ```bash
@@ -28,6 +51,11 @@ Hugging Face is an AI company and open-source platform focused on natural langua
    ```bash
    pip install -r requirements.txt
    ```
+
+After installation, you can run the tutorials. To deactivate the virtual environment when done:
+```bash
+deactivate
+```
 
 For practical use, you can install the library via `pip install transformers` and explore models on their website (huggingface.co).
 
